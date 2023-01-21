@@ -1,0 +1,102 @@
+body {
+    margin: 0 auto;
+}
+
+section {
+    padding: 5px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+span {
+    color: orange;
+}
+
+.flexible-section {
+    display: flex;
+
+}
+
+.experience-div {
+    display: flex;
+    width: 80%;
+    padding: 5px;
+
+}
+
+.experience-color {
+    color: orange;
+}
+
+.experience-design {
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+.experience-first {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+.experience-second {
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow, purple);
+    border-image-slice: 1;
+}
+
+.half-width {
+    width: 80%;
+    padding: 5%;
+}
+
+.image-size {
+
+    width: 120%;
+}
+
+.half-width image {
+    width: 30%;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 700ox;
+    border-radius: 7px;
+    background-image: linear-gradient(orange, tomato);
+
+}
+
+.middle-banner {
+    background-position: right;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+footer {
+    text-align: center;
+    font-weight: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-color {
+    color: brown;
+}
